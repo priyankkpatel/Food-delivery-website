@@ -1,0 +1,102 @@
+.navbar{
+    padding: 20px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navabr .logo{
+    width: 150px;
+
+}
+.navbar-menu{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    color:#49557e;
+    font-size: 18px;
+}
+.navbar-right{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.navbar button{
+    background-color: transparent;
+    font-size: 16px;
+    color: #49557e;
+    border: 1px solid tomato;
+    padding: 10px 30px;
+    border-radius: 50px; 
+    cursor: pointer;
+    transition: 0.3s;
+}
+.navbar button:hover{
+    background-color: #fff4f2;
+}
+/* Style for the navbar container */
+.navbar {
+    display: flex;               /* Use Flexbox for layout */
+    justify-content: space-between; /* Align items across the width */
+    align-items: center;         /* Center items vertically */
+    padding: 10px 20px;          /* Add some padding */
+   
+  }
+  
+
+  /* Style for the navbar menu (centered) */
+  .navbar-menu {
+    display: flex;               /* Flexbox for horizontal menu */
+    list-style-type: none;       /* Remove bullet points */
+    padding: 0;
+    margin: 0;
+  }
+  
+  .navbar-menu li {
+    margin: 0 20px;              /* Space between menu items */
+    cursor: pointer;             /* Change cursor to pointer on hover */
+    font-size: 18px;             /* Set font size */
+    font-weight: bold;           /* Bold text */
+  }
+  .navbar .active {
+    padding-bottom: 2px;
+    border-bottom: 2px solid #49557e;
+  }
+  .navabr li {
+    cursor: pointer;
+  }
+  .navbar-search_icon .dot{
+    position: absolute;
+    min-height: 10px;
+    min-width: 10px;
+    background-color: tomato;
+    border-radius: 5px;
+    top: -8px ;
+    right: -8px;
+    
+  } 
+
+  /* Style for the right-side icons and sign-in button */
+  .navbar-right {
+    display: flex;               /* Flexbox for horizontal layout */
+    align-items: center;         /* Align items vertically */
+  }
+  
+  .navbar-right img {
+    height: 24px;                /* Set height for the icons */
+    margin-right: 15px;          /* Space between the icons */
+  }
+  
+  .navbar-search_icon {
+    position: relative;          /* For positioning the dot */
+  }
+  
+  .dot {
+    position: absolute;          /* Position the dot relative to the basket */
+    top: -5px;
+    right: -5px;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;          /* Make it circular */
+  }
+  
+ 
